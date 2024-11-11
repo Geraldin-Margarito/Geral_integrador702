@@ -33,15 +33,16 @@ const Clientecito = () => {
 
     // Datos para la gráfica de sexo (M y F)
     const sexoData = {
-        labels: ['M', 'F'],
+        labels: ['M', 'F', 'I'],
         datasets: [
             {
                 label: 'Número de Docentes',
                 data: [
                     docentes.filter((docente) => docente.sexo === 'M').length,
                     docentes.filter((docente) => docente.sexo === 'F').length,
+                    docentes.filter((docente) => docente.sexo === 'I').length,
                 ],
-                backgroundColor: ['#36a2eb', '#ff6384'],
+                backgroundColor: ['#36a2eb', '#ff6384', , '#33FFCC'],
             },
         ],
     };

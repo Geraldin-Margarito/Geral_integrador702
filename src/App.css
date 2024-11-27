@@ -77,3 +77,29 @@
 .docente-table tr:hover {
   background-color: #ddd;
 }
+
+.calificacion-container {
+  padding: 20px;
+}
+
+.alumno-section {
+  margin-bottom: 40px;
+}
+
+.charts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.chart {
+  flex: 1;
+  min-width: 300px;
+}
+
+.small-chart {
+  max-width: 500px; /* Tamaño más pequeño */
+  max-height: 500px;
+}
+

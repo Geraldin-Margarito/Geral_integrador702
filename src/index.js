@@ -4,6 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import ListaDocentes from './Trabajadores/Docente';
 import ListaClientes from './Cliente/Clientecito';
+import ListaCalificacion from './Calificaciones/Calificacion';
 //import App from './App';
 
 
@@ -12,6 +13,7 @@ root.render(
   <React.StrictMode>
     <ListaDocentes/>
     <ListaClientes/>
+    <ListaCalificacion/>
   </React.StrictMode>
 );
 
